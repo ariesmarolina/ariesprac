@@ -1,0 +1,109 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.title {
+
+    font-weight: bold;
+    font-size: 17px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.views {
+
+    font-size: 14px;
+    color: rgb(50, 48, 48);
+    margin-bottom: 12px;
+}
+
+.author {
+
+    color: rgb(50, 48, 48);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: rgb(50, 48, 48);
+    font-size: 14px;
+    width: 300px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+.shop {
+    background-color: rgb(226, 84, 84);
+    color: white;
+    margin-bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.now:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.practice {
+    background-color: rgb(236, 235, 233);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    line-height: 14px;
+}
+
+.practice h4 {
+    color: rgb(248, 172, 8);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.practice h3 {
+    margin-top: 10px;
+    margin-bottom: px;
+    color: rgb(85, 83, 83);
+}
+
+.practice h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+.price {
+    color: rgb(77, 75, 75);
+    padding-bottom: 10px;
+}
+
+.practice button {
+    color: white;
+    background-color: rgb(58, 138, 243);
+    border: none;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-bottom: 5px;
+    transition: all 0.25s ease;
+}
+
+.practice button:hover {
+    background-color: rgb(65, 163, 65);
+    cursor: pointer;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.practice button:active {
+    background-color: white;
+    color: black;
+    transform: scale(0.70);
+}

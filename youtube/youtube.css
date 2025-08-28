@@ -1,0 +1,36 @@
+.spider {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.search {
+    display: block;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.clone {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.channel-pic {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.vid-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-pic {
+    width: 100%;
+
+}

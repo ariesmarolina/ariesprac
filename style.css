@@ -1,0 +1,93 @@
+body {
+    background-color: whitesmoke;
+}
+
+.Nike h1 {
+    color: green;
+    font-size: 20px;
+}
+
+.Nike p {
+    color: black;
+    font-weight: bold;
+}
+
+body a {
+    color: black;
+    transition: color 0.35s, box-shadow 0.25s;
+}
+
+body a:hover {
+    color: rgb(235, 3, 3);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.cart {
+    background-color: rgb(247, 208, 141);
+    height: 30px;
+    width: 120px;
+    border: 1px;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.25s;
+
+}
+
+.cart:hover {
+    opacity: 0.9;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cart:active {
+    opacity: 0.5;
+}
+
+.buy {
+    background-color: rgb(246, 178, 52);
+    height: 30px;
+    width: 120px;
+    border: 1px;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.buy:hover {
+    background-color: rgb(42, 130, 42);
+    color: rgb(231, 238, 233);
+}
+
+.buy:active {
+    background-color: rgb(68, 140, 241);
+}
+
+.order button {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 1px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.30s, color 0.30s;
+}
+
+.order button:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.order button:active {
+    opacity: 0.5;
+}
